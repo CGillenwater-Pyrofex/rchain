@@ -2,7 +2,7 @@
 # With Docker CE installed, this will build a simple private RChain P2P test network.
 # The test network contains a bootstrap server and two more peers connecting to P2P network via bootstrap.
 # "local repo" as params builds from current repo you are in
-# "delete testnet" removes all testnet resources 
+# "delete testnet" removes all testnet resources. 
 
 if [[ "${TRAVIS}" == "true" ]]; then
   set -eo pipefail # x enables verbosity on CI environment for debugging
